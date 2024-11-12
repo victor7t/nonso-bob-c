@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.super_div {
+  background-color: whitesmoke;
+  flex: 1;
+  border-top: 10px solid blue;
+  padding: 1rem;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 10px;
+  min-width: 267px;
+  max-width: 267px;
+}
+
+.Team_div {
+  background-color: whitesmoke;
+  flex: 1;
+  border-top: 10px solid red;
+  /* margin-left: 106%;
+    width: 100%;
+    margin-top: -61%; */
+  width: fit-content;
+  height: fit-content;
+  border-radius: 10px;
+  min-width: 267px;
+  max-width: 267px;
+  padding: 1rem;
+}
+
+.Karma_div {
+  background-color: whitesmoke;
+  flex: 1;
+  border-top: 10px solid orange;
+  width: fit-content;
+  height: fit-content;
+  max-width: 267px;
+  padding: 1rem;
+  min-width: 267px;
+  border-radius: 10px;
+}
+
+.Calculator_div {
+  background-color: whitesmoke;
+  flex: 1;
+  border-top: 10px solid green;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 10px;
+  padding: 1rem;
+  max-width: 267px;
+  min-width: 267px;
+}
+
+.container {
+  padding: 1.2rem;
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.p1 {
+  font-size: 15px;
+}
+.content {
+  gap: 3rem;
+  width: 70%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  opacity: 70%;
+  display: flex;
+  padding: 10px;
+}
+
+.img1 {
+  float: right;
+  margin-top: 5rem;
+}
+
+.h1_div {
+  text-align: center;
+}
+
+.first_box {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.second_box {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+
+@media (max-width: 680px){
+  .first_box{
+    display: flex;
+    margin-top: 2rem;
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+
+  .second_box{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+
+  .content{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+
+
+
+
